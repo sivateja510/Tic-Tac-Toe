@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: inline;
+    list-style: none;
+    font-size:xx-large;
+    text-align: center;
+}
+.one{
+    background-color: rgb(58, 55, 57);
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    overflow: hidden;
+    /* text-align: center; */
+    color: aliceblue;
+}
+
+.gameContainer{ 
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 50px;
+    margin-left: 150px;;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    /* font-family: 'Roboto', sans-serif; */
+    /* position: relative; */
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color:rgb(243, 244, 240);
+}
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+.info{
+    font-size: 10vw;
+    text-align: center;
+    padding-left: 125px;
+    position: inherit;
+    color: red;
+}
+p{
+    padding-left: 50px;
+    font-size: 50px;
+    margin: 0px;;
+    color: rgb(42, 9, 100);
+}
+ul #reset{
+    text-align: center;
+}
